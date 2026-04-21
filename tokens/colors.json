@@ -1,0 +1,46 @@
+{
+  "color": {
+    "background": {
+      "primary":   { "value": "#0a0a0f", "comment": "Base — casi negro" },
+      "secondary": { "value": "#111118", "comment": "Cards, secciones" },
+      "tertiary":  { "value": "#1a1a24", "comment": "Hover, inputs" }
+    },
+    "brand": {
+      "blue-400": { "value": "#60a5fa", "comment": "Hover, gradients light" },
+      "blue-500": { "value": "#3b82f6", "comment": "Primary — CTAs, links, badges" },
+      "blue-600": { "value": "#2563eb", "comment": "CTA gradient start" },
+      "blue-700": { "value": "#1d4ed8", "comment": "Deep hover" },
+      "blue-950": { "value": "#172554", "comment": "Background accent" },
+      "indigo-500": { "value": "#6366f1", "comment": "Gradient end secundario" }
+    },
+    "text": {
+      "primary":   { "value": "#ffffff", "comment": "Headlines" },
+      "secondary": { "value": "#d1d5db", "comment": "Body copy — gray-300" },
+      "tertiary":  { "value": "#9ca3af", "comment": "Secondary copy — gray-400" },
+      "muted":     { "value": "#6b7280", "comment": "Disabled/muted — gray-500" }
+    },
+    "border": {
+      "subtle":  { "value": "rgba(255,255,255,0.05)", "comment": "white/5 — separadores" },
+      "medium":  { "value": "rgba(255,255,255,0.10)", "comment": "white/10 — cards" },
+      "accent":  { "value": "rgba(59,130,246,0.30)",  "comment": "blue-500/30 — cards activos" }
+    },
+    "category": {
+      "ingresos-from":  { "value": "#22c55e", "comment": "green-500" },
+      "ingresos-to":    { "value": "#10b981", "comment": "emerald-600" },
+      "costos-from":    { "value": "#eab308", "comment": "yellow-500" },
+      "costos-to":      { "value": "#ea580c", "comment": "orange-600" },
+      "tiempo-from":    { "value": "#3b82f6", "comment": "blue-500" },
+      "tiempo-to":      { "value": "#06b6d4", "comment": "cyan-600" },
+      "premium-from":   { "value": "#a855f7", "comment": "purple-500" },
+      "premium-to":     { "value": "#db2777", "comment": "pink-600" }
+    },
+    "semantic": {
+      "success-400": { "value": "#4ade80" },
+      "success-500": { "value": "#22c55e" },
+      "error-400":   { "value": "#f87171" },
+      "error-500":   { "value": "#ef4444" },
+      "warning-400": { "value": "#fbbf24" },
+      "warning-500": { "value": "#f59e0b" }
+    }
+  }
+}

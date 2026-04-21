@@ -1,0 +1,40 @@
+{
+  "font": {
+    "family": {
+      "sans":  { "value": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" },
+      "serif": { "value": "'Instrument Serif', Georgia, serif" }
+    },
+    "weight": {
+      "normal":   { "value": "400", "comment": "Body copy" },
+      "medium":   { "value": "500", "comment": "Énfasis raro" },
+      "semibold": { "value": "600", "comment": "Subheadlines" },
+      "bold":     { "value": "700", "comment": "Headlines, CTAs" },
+      "extrabold":{ "value": "800", "comment": "Hero numbers, stat highlights" }
+    },
+    "size": {
+      "xs":  { "value": "12px" },
+      "sm":  { "value": "14px", "comment": "Badges, captions" },
+      "base":{ "value": "16px", "comment": "Body mobile" },
+      "lg":  { "value": "18px", "comment": "Body desktop" },
+      "xl":  { "value": "20px" },
+      "2xl": { "value": "24px", "comment": "h4 mobile" },
+      "3xl": { "value": "30px", "comment": "h3 mobile / h4 desktop" },
+      "4xl": { "value": "36px", "comment": "h2 mobile / h1 mobile" },
+      "5xl": { "value": "48px", "comment": "h1 tablet / h2 desktop" },
+      "6xl": { "value": "60px", "comment": "h1 desktop" }
+    },
+    "lineHeight": {
+      "tight":   { "value": "1.25",  "comment": "Headlines" },
+      "snug":    { "value": "1.375", "comment": "Subheadlines" },
+      "normal":  { "value": "1.5",   "comment": "Default" },
+      "relaxed": { "value": "1.625", "comment": "Body copy recomendado" },
+      "loose":   { "value": "2" }
+    }
+  },
+  "gradient": {
+    "text-blue": {
+      "value": "linear-gradient(135deg, #3b82f6, #6366f1)",
+      "usage": "Palabras clave en headlines — usar con background-clip: text"
+    }
+  }
+}

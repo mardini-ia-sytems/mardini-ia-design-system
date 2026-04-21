@@ -1,0 +1,38 @@
+{
+  "spacing": {
+    "card-padding":    { "value": "p-6 sm:p-8",           "comment": "Padding interno de cards" },
+    "section-padding": { "value": "py-16 sm:py-24 lg:py-28","comment": "Padding vertical de secciones" },
+    "grid-gap":        { "value": "gap-4 sm:gap-6 lg:gap-8","comment": "Gap entre items de grid" }
+  },
+  "borderRadius": {
+    "button":  { "value": "12px", "tailwind": "rounded-xl" },
+    "card":    { "value": "16px", "tailwind": "rounded-2xl" },
+    "section": { "value": "24px", "tailwind": "rounded-3xl" },
+    "badge":   { "value": "9999px","tailwind": "rounded-full" },
+    "icon":    { "value": "12px", "tailwind": "rounded-xl" }
+  },
+  "shadow": {
+    "blue-sm":  { "value": "0 1px 2px 0 rgb(59 130 246 / 0.3)" },
+    "blue-md":  { "value": "0 4px 6px -1px rgb(59 130 246 / 0.3)" },
+    "blue-lg":  { "value": "0 10px 15px -3px rgb(59 130 246 / 0.3)" },
+    "blue-xl":  { "value": "0 20px 25px -5px rgb(59 130 246 / 0.5)" },
+    "glow":     { "value": "0 0 20px rgba(59,130,246,0.15), 0 0 60px rgba(59,130,246,0.1)" },
+    "cta":      { "value": "shadow-2xl shadow-blue-500/30",  "comment": "CTA button default" },
+    "cta-hover":{ "value": "shadow-blue-500/50",            "comment": "CTA button hover" }
+  },
+  "backdropBlur": {
+    "navbar": { "value": "24px", "tailwind": "backdrop-blur-xl" },
+    "card":   { "value": "4px",  "tailwind": "backdrop-blur-sm" },
+    "modal":  { "value": "4px",  "tailwind": "backdrop-blur-sm" }
+  },
+  "transition": {
+    "fast":   { "value": "200ms ease-in-out" },
+    "normal": { "value": "300ms ease-in-out" },
+    "hover-scale": { "value": "scale(1.02)", "comment": "Botones CTA en hover" }
+  },
+  "container": {
+    "default": { "value": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" },
+    "narrow":  { "value": "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" },
+    "cta":     { "value": "max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" }
+  }
+}
